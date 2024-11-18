@@ -6,5 +6,5 @@ function scrollToSection(sectionId) {
     }
 }
 
-// Dynamically change LinkedIn profile picture
-document.getElementById('profile-pic').src = 'https://media.licdn.com/dms/image/D4D03AQH...'; // Add your LinkedIn image URL
+// Dynamically set profile picture
+document.getElementById('profile-pic').src = 'https://via.placeholder.com/150'; // Replace with your LinkedIn image URL
