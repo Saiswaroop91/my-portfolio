@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f9f9f9;
 }
 
 h1, h2, h3 {
@@ -13,8 +14,8 @@ h1, h2, h3 {
 
 /* Header Section */
 .hero {
-    background: linear-gradient(to right, #0066cc, #003366);
-    color: #fff;
+    background: linear-gradient(to right, #cfe9f7, #e6f7ff);
+    color: #333;
     text-align: center;
     padding: 80px 20px;
 }
@@ -29,18 +30,29 @@ h1, h2, h3 {
 }
 
 .hero .btn {
-    background: #fff;
-    color: #0066cc;
+    background: #0078d4;
+    color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .name-link {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.hero .name-link:hover {
+    text-decoration: underline;
 }
 
 /* Navbar */
 .navbar {
-    background: #444;
-    color: #fff;
+    background: #f4f4f4;
+    color: #333;
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -61,7 +73,7 @@ h1, h2, h3 {
 
 .navbar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #0078d4;
     font-weight: bold;
 }
 
@@ -71,12 +83,12 @@ h1, h2, h3 {
 }
 
 .section.bg-light {
-    background: #f4f4f9;
+    background: #f0f8ff;
 }
 
 .section.bg-dark {
-    background: #222;
-    color: #fff;
+    background: #e8f4fc;
+    color: #333;
 }
 
 /* Skills Section */
@@ -104,8 +116,8 @@ h1, h2, h3 {
 
 /* Footer */
 footer {
-    background: #444;
-    color: #fff;
+    background: #f4f4f4;
+    color: #333;
     text-align: center;
     padding: 10px 0;
 }
