@@ -5,3 +5,6 @@ function scrollToSection(sectionId) {
         element.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+// Dynamically change LinkedIn profile picture
+document.getElementById('profile-pic').src = 'https://media.licdn.com/dms/image/D4D03AQH...'; // Add your LinkedIn image URL
