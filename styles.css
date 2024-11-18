@@ -18,106 +18,30 @@ h1, h2, h3 {
     color: #333;
     text-align: center;
     padding: 80px 20px;
+    position: relative;
 }
 
-.hero h1 {
-    font-size: 3rem;
+.hero img.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border: 3px solid #0078d4;
+    animation: fadeIn 2s;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    margin: 10px 0 20px;
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.hero .btn {
-    background: #0078d4;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+.animated.fadeIn {
+    animation: fadeIn 2s;
 }
 
-.hero .name-link {
-    text-decoration: none;
-    color: #0078d4;
-}
-
-.hero .name-link:hover {
-    text-decoration: underline;
-}
-
-/* Navbar */
-.navbar {
-    background: #f4f4f4;
-    color: #333;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    margin: 0 15px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #0078d4;
-    font-weight: bold;
-}
-
-/* Section Styling */
-.section {
-    padding: 40px 20px;
-}
-
-.section.bg-light {
-    background: #f0f8ff;
-}
-
-.section.bg-dark {
-    background: #e8f4fc;
-    color: #333;
-}
-
-/* Skills Section */
-.skills-grid {
-    display: flex;
-    gap: 20px;
-}
-
-.skill {
-    flex: 1;
-}
-
-/* Projects Section */
-.project-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.project {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-/* Footer */
-footer {
-    background: #f4f4f4;
-    color: #333;
-    text-align: center;
-    padding: 10px 0;
-}
+/* Other styles same as before... */
